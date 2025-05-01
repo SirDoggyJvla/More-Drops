@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/1/quantity/avg",
+    "value": 2.25,
+    "file": "entities/land/raccoon-female.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2/quantity/avg",
+    "value": 1.25,
+    "file": "entities/land/raccoon-female.json"
+  }
+]

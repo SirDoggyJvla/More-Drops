@@ -1,0 +1,8 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2/quantity/avg",
+    "value": 8,
+    "file": "entities/land/pig-wild-female.json"
+  }
+]

@@ -1,0 +1,13 @@
+{
+	"type": "Theme",
+	"modid": "moreanimalloot",
+	"name": "More animal loot",
+	"authors": [ "Falco" ],
+	"description": "Gives you more loot from animals",
+	"website": "",
+	"side": "Universal",
+		"version": "1.1.2",
+	"dependency": {
+		"game": "1.18.15"
+	}
+}
