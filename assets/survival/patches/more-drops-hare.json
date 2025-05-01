@@ -4,14 +4,20 @@
         "op": "addmerge",
         "path": "/server/behaviors/7/drops",
         "value": [
-            { "type": "item", "code": "fat", "quantity": { "avg": 20, "var": 0.3 } }
+            { "type": "item", "code": "fat", "quantity": { "avg": 2, "var": 0 } }
         ]
     },
     {
         "file": "game:entities/land/hare-female",
         "op": "replace",
         "path": "/server/behaviors/7/drops/0",
-        "value": { "type": "item", "code": "redmeat-raw", "quantity": { "avg": 20, "var": 0 } }
+        "value": { "type": "item", "code": "redmeat-raw", "quantity": { "avg": 4, "var": 0 } }
+    },
+    {
+        "file": "game:entities/land/hare-female",
+        "op": "replace",
+        "path": "/server/behaviors/7/drops/1",
+        "value": { "type": "item", "code": "hide-raw-small", "quantity": { "avg": 2, "var": 0 } }
     },
 
     {
@@ -19,13 +25,19 @@
         "op": "addmerge",
         "path": "/server/behaviors/6/drops",
         "value": [
-            { "type": "item", "code": "fat", "quantity": { "avg": 20, "var": 0.3 } }
+            { "type": "item", "code": "fat", "quantity": { "avg": 2, "var": 0 } }
         ]
     },
     {
         "file": "game:entities/land/hare-male",
         "op": "replace",
         "path": "/server/behaviors/6/drops/0",
-        "value": { "type": "item", "code": "redmeat-raw", "quantity": { "avg": 20, "var": 0 } }
+        "value": { "type": "item", "code": "redmeat-raw", "quantity": { "avg": 4, "var": 0 } }
+    },
+    {
+        "file": "game:entities/land/hare-male",
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/1",
+        "value": { "type": "item", "code": "hide-raw-small", "quantity": { "avg": 2, "var": 0 } }
     }
 ]
