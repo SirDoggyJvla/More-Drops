@@ -1,0 +1,77 @@
+[
+    {
+        "file": "game:entities/land/raccoon-male.json",
+        "op": "replace",
+        "path": "/server/behaviors/7/drops/0",
+        "side": "Server",
+        "value": { 
+            "type": "item", 
+            "code": "bushmeat-raw",
+            "quantity": { "avg": 4, "var": 2 }
+        }
+    },
+    {
+        "file": "game:entities/land/raccoon-male.json",
+        "op": "replace",
+        "path": "/server/behaviors/7/drops/1",
+        "side": "Server",
+        "value": { 
+            "type": "item", 
+            "code": "hide-raw-small",
+            "quantity": { "avg": 2, "var": 0 }
+        }
+    },
+    {
+        "file": "game:entities/land/raccoon-male.json",
+        "op": "addmerge",
+        "path": "/server/behaviors/7/drops",
+        "side": "Server",
+        "value": [
+            { "type": "item", "code": "fat", "quantity": { "avg": 2, "var": 0 } }
+        ]
+    },
+
+    {
+        "file": "game:entities/land/raccoon-female.json",
+        "op": "replace",
+        "path": "/server/behaviors/7/drops/0",
+        "side": "Server",
+        "value": { 
+            "type": "item", 
+            "code": "bushmeat-raw",
+            "quantity": { "avg": 4, "var": 2 }
+        }
+    },
+    {
+        "file": "game:entities/land/raccoon-female.json",
+        "op": "replace",
+        "path": "/server/behaviors/7/drops/1",
+        "side": "Server",
+        "value": { 
+            "type": "item", 
+            "code": "hide-raw-small",
+            "quantity": { "avg": 2, "var": 0 }
+        }
+    },
+    {
+        "file": "game:entities/land/raccoon-female.json",
+        "op": "addmerge",
+        "path": "/server/behaviors/7/drops",
+        "side": "Server",
+        "value": [
+            { "type": "item", "code": "fat", "quantity": { "avg": 2, "var": 0 } }
+        ]
+    },
+
+    {
+        "file": "game:entities/land/raccoon-pup.json",
+        "op": "addmerge",
+        "path": "/server/behaviors/7/drops",
+        "side": "Server",
+        "value": [
+            { "type": "item", "code": "bushmeat-raw", "quantity": { "avg": 1, "var": 0 } },
+            { "type": "item", "code": "hide-raw-small", "quantity": { "avg": 1, "var": 0 } },
+            { "type": "item", "code": "fat", "quantity": { "avg": 1, "var": 0 } }
+        ]
+    }
+]
