@@ -1,3 +1,101 @@
 [
-    
+    {
+        "file": "game:entities/land/wolf-female.json",
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/0",
+        "side": "Server",
+        "value": { 
+            "type": "item", 
+            "code": "bushmeat-raw",
+            "quantity": { "avg": 12, "var": 1 }
+        }
+    },
+    {
+        "file": "game:entities/land/wolf-female.json",
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/1",
+        "side": "Server",
+        "value": { 
+            "type": "item", 
+            "code": "hide-raw-medium",
+            "quantity": { "avg": 3, "var": 0 }
+        }
+    },
+    {
+        "file": "game:entities/land/wolf-female.json",
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/2",
+        "side": "Server",
+        "value": { 
+            "type": "item", 
+            "code": "fat",
+            "quantity": { "avg": 3, "var": 0 }
+        }
+    },
+
+    {
+        "file": "game:entities/land/wolf-male.json",
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/0",
+        "side": "Server",
+        "value": { 
+            "type": "item", 
+            "code": "bushmeat-raw",
+            "quantity": { "avg": 12, "var": 1 }
+        }
+    },
+    {
+        "file": "game:entities/land/wolf-male.json",
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/1",
+        "side": "Server",
+        "value": { 
+            "type": "item", 
+            "code": "hide-raw-medium",
+            "quantity": { "avg": 3, "var": 0 }
+        }
+    },
+    {
+        "file": "game:entities/land/wolf-male.json",
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/2",
+        "side": "Server",
+        "value": { 
+            "type": "item", 
+            "code": "fat",
+            "quantity": { "avg": 3, "var": 0 }
+        }
+    },
+
+    {
+        "file": "game:entities/land/wolf-pup.json",
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/0",
+        "side": "Server",
+        "value": { 
+            "type": "item", 
+            "code": "redmeat-raw",
+            "quantity": { "avg": 3, "var": 0 }
+        }
+    },
+    {
+        "file": "game:entities/land/wolf-pup.json",
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/1",
+        "side": "Server",
+        "value": { 
+            "type": "item", 
+            "code": "hide-raw-small",
+            "quantity": { "avg": 2, "var": 0 }
+        }
+    },
+    {
+        "file": "game:entities/land/wolf-pup.json",
+        "op": "addmerge",
+        "path": "/server/behaviors/6/drops",
+        "side": "Server",
+        "value": [
+            { "type": "item", "code": "fat", "quantity": { "avg": 1, "var": 0 } }
+        ]
+    }
 ]

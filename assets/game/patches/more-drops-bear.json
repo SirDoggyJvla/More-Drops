@@ -1,0 +1,53 @@
+[
+    {
+        "file": "game:entities/land/bear.json",
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/0",
+        "side": "Server",
+        "value": {
+            "type": "item", 
+            "code": "bushmeat-raw", 
+            "quantityByType": {
+                "*-black": { "avg": 18, "var": 2 },
+                "*-brown": { "avg": 22, "var": 2 },
+                "*-sun": { "avg": 14, "var": 2 },
+                "*-panda": { "avg": 15, "var": 2 },
+                "*-polar": { "avg": 30, "var": 2 }
+            }
+        }
+    },
+    {
+        "file": "game:entities/land/bear.json",
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/1",
+        "side": "Server",
+        "value": {
+            "type": "item", 
+            "code": "hide-raw-huge", 
+            "quantityByType": {
+                "*-black": { "avg": 4, "var": 0 },
+                "*-brown": { "avg": 6, "var": 0 },
+                "*-sun": { "avg": 4, "var": 0 },
+                "*-panda": { "avg": 4, "var": 0 },
+                "*-polar": { "avg": 6, "var": 0 }
+            }
+        }
+    },
+    {
+        "file": "game:entities/land/bear.json",
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/2",
+        "side": "Server",
+        "value": {
+            "type": "item", 
+            "code": "fat", 
+            "quantityByType": {
+                "*-black": { "avg": 4, "var": 1 },
+                "*-brown": { "avg": 4, "var": 1 },
+                "*-sun": { "avg": 2, "var": 1 },
+                "*-panda": { "avg": 4, "var": 1 },
+                "*-polar": { "avg": 8, "var": 1 }
+            }
+        }
+    }
+]

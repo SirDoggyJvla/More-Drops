@@ -1,9 +1,9 @@
 {
-	"type": "Theme",
-	"modid": "moredrops",
-	"name": "More drops",
+	"type": "Content",
+	"modid": "moredrops_animals",
+	"name": "More animal drops",
 	"authors": [ "Sir Doggy Jvla" ],
-	"description": "A mod for Vintage Story which has the goal of increasing drops by mobs to reduce some grindy aspects of the game.",
+	"description": "A mod for Vintage Story which has the goal of increasing drops by animals to reduce some grindy aspects of the game.",
 	"website": "",
 	"side": "Universal",
 	"version": "1.0.0",
